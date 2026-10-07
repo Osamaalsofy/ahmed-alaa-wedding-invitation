@@ -49,3 +49,13 @@ html[lang="ar"] .map-frame p{color:var(--ink);font:15px/1.9 'Tajawal',sans-serif
 .event-time{font:18px/1.9 'Tajawal',sans-serif;color:var(--ink);margin:18px 0 20px}
 @media(min-width:651px) and (max-width:950px){.location{grid-template-columns:1fr;gap:35px}.location-copy{margin-inline:auto}.map-frame{width:100%;max-width:650px;margin-inline:auto}}
 @media(max-width:650px){.map-frame iframe{height:340px}.event-time{font-size:16px}}
+
+/* Blush-pink opening palette; the invitation's existing styles stay intact. */
+.cover{background:#efd1dc;color:#64384d}
+.cover .cover-art{opacity:.58;mix-blend-mode:multiply}
+.cover:after{background:linear-gradient(135deg,#fbe5ed66,#e8b9cd55)}
+.cover .cover-content{background:#fff0f5e8;border-color:#c58aa56b;box-shadow:0 20px 70px #7b3c5724}
+.cover .cover-names i{color:#ab6c88}
+.cover .seal{background:#a24e73;border-color:#e5b8c9;color:#fff1f6;box-shadow:0 4px 16px #84395140}
+.cover .skip{background:#fff0f5e6;color:#64384d;border-color:#c58aa5}
+@media(min-width:1500px){.cover{background:#efd1dc}}
